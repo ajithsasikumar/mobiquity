@@ -30,10 +30,9 @@ public class Result {
                 if (weight <= maxWeight) {
                     combPkgList.add(packageList.get(i));
                     cost = packageList.get(i).getCost();
-                    System.out.println("weight inside if :====>>" + weight);
+
                     for (int j = (i + 1); j < packageList.size(); j++) {
                         weight += packageList.get(j).getWeight();
-                        System.out.println("weight inside for :====" + weight);
                         if (weight <= maxWeight) {
                             combPkgList.add(packageList.get(j));
                             cost += packageList.get(j).getCost();

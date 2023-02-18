@@ -1,3 +1,9 @@
-com\mobiquity\exception\APIException.class
-com\mobiquity\packer\Packer.class
+com\mobiquity\packer\Result.class
 com\mobiquity\packer\PackerApplicationMain.class
+com\mobiquity\model\Package.class
+com\mobiquity\model\Combination.class
+com\mobiquity\constants\Constants.class
+com\mobiquity\packer\Packer.class
+com\mobiquity\exception\APIException.class
+com\mobiquity\packer\KnapsackImpl.class
+com\mobiquity\model\Line.class
